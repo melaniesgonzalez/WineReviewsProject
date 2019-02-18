@@ -5,7 +5,7 @@ dfm_rel_freq_wine <- dfm_weight(my_dfm_wine, scheme = "prop") * 100
 rel_freq_grouped <- textstat_frequency(dfm_rel_freq_wine, groups = "variety")
 rel_freq_group_tannins <- subset(rel_freq_grouped, feature %in% "tannins")  
 
-fig3 <- ggplot(rel_freq_group_tannins, aes(x = group, y = frequency)) +
+fig4 <- ggplot(rel_freq_group_tannins, aes(x = group, y = frequency)) +
     geom_point() + 
     xlab(NULL) + 
     labs(title = "Expected frequency of word 'tannins' in descriptions of each wine type, for every 100 words",
@@ -13,4 +13,4 @@ fig3 <- ggplot(rel_freq_group_tannins, aes(x = group, y = frequency)) +
          y = "Frequency") +
     theme(axis.text.x = element_text(angle = 90, hjust = 1))
 
-ggsave("images/fig3_comparerelfreq_tannins.png", fig3, height = 5, width = 5)
+ggsave("images/fig4_comparerelfreq_tannins.png", fig4, height = 5, width = 5)

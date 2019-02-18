@@ -9,4 +9,4 @@ fig1 <- ggplot(data = features_dfm) +
   labs(title = "Top 50 most frequent words") +
   theme(axis.text.x = element_text(angle = 90, hjust = 1)) 
 
-ggsave("images/fig1_top50all.png", fig1, height = 5, width = 5)
+ggsave("images/fig1_top50overall.png", fig1, height = 5, width = 5)
