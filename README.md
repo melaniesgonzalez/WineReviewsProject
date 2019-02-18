@@ -1,7 +1,7 @@
 # WineReviewsProject
 
 ## Figure 1
-<img src="https://github.com/melaniesgonzalez/WineReviewsProject/blob/master/images/fig1_top50all.png" width="480">
+<img src="https://github.com/melaniesgonzalez/WineReviewsProject/blob/master/images/fig1_top50overall.png" width="480">
 
 ## Figure 2
 <img src="https://github.com/melaniesgonzalez/WineReviewsProject/blob/master/images/fig2_comparewordcloud.png" width="480">
