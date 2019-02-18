@@ -1,12 +1,15 @@
 #run Fig 1
 source("analysis/fig1_top50overall.R")
+fig1
 
 #run Fig 2
 source("analysis/fig1_top50overall.R")
+fig2
 
 #run Fig 3
 source("analysis/fig1_top50overall.R")
+fig3
 
 #run Fig 4
 source("analysis/fig1_top50overall.R")
-
+fig4

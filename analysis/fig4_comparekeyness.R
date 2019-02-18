@@ -6,8 +6,8 @@ color_group_wine_dfm <- dfm(winestencorpus, groups = "color", tolower = TRUE, st
 #plot keyness of words
 result_keyness <- textstat_keyness(color_group_wine_dfm, target = "Red")
 
-p <- textplot_keyness(result_keyness, color = c("red", "gray")) +
+fig4 <- textplot_keyness(result_keyness, color = c("red", "gray")) +
   labs(title = "Keyness of words in descriptions of red vs. white wines",
        subtitle = "Degree to which word is distinguishing feature of descriptions of red vs. white wine")
 
-ggsave("images/fig4_comparekeyness.png", p, height = 5, width = 5)
+ggsave("images/fig4_comparekeyness.png", fig4, height = 5, width = 5)
