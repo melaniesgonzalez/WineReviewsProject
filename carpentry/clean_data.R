@@ -1,7 +1,8 @@
 #### Load necessary libraries ----
 library(tidyverse)  # contains readr package and dplyr package
 
-#### Read in CSV from raw_data folder ----
+#### Read in raw data ----
+wines <- readr::read_rds("wines.RData")  # or
 wines <- readr::read_csv("raw_data/wines.csv")
 
 #### Select top 10 wines ----
@@ -29,5 +30,5 @@ toptenwines <- wines %>%
   group_by(variety, color) %>%
   summarise(descr = paste0(description, collapse = ""))
 
-#### Save domshort file as CSV in clean_data folder ----
+#### Save toptenwines dataset as CSV in clean_data folder ----
 readr::write_csv(toptenwines, "clean_data/toptenwines.csv")
