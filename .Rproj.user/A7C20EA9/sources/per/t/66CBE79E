@@ -1,0 +1,22 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1550464756796.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "1917211617",
+    "id" : "66CBE79E",
+    "lastKnownWriteTime" : 1550464921,
+    "last_content_update" : 1550464921563,
+    "path" : "~/Documents/GitHub/WineReviewsProject/analysis/fig1_top50overall.R",
+    "project_path" : "analysis/fig1_top50overall.R",
+    "properties" : {
+        "cursorPosition" : "11,63",
+        "scrollLine" : "0"
+    },
+    "relative_order" : 2,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

@@ -1,0 +1,22 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1550464788936.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "3065678059",
+    "id" : "DA245BBE",
+    "lastKnownWriteTime" : 1550466180,
+    "last_content_update" : 1550466180862,
+    "path" : "~/Documents/GitHub/WineReviewsProject/RunEverything.R",
+    "project_path" : "RunEverything.R",
+    "properties" : {
+        "cursorPosition" : "11,0",
+        "scrollLine" : "0"
+    },
+    "relative_order" : 6,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

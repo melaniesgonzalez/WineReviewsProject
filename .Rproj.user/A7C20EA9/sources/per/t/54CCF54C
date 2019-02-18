@@ -1,0 +1,22 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1550464759888.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "2972768768",
+    "id" : "54CCF54C",
+    "lastKnownWriteTime" : 1550464943,
+    "last_content_update" : 1550464943701,
+    "path" : "~/Documents/GitHub/WineReviewsProject/analysis/fig3_comparerelfreq_tannins.R",
+    "project_path" : "analysis/fig3_comparerelfreq_tannins.R",
+    "properties" : {
+        "cursorPosition" : "16,0",
+        "scrollLine" : "0"
+    },
+    "relative_order" : 4,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}
